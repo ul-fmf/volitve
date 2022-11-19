@@ -104,3 +104,12 @@ a:hover {
     background-color: #0d6efd;
     border-color: #0d6efd;
 } */
+
+
+dt {
+    font-size: 1.2em;
+    margin: 1.5em 0 0 0;
+}
+dd {
+    margin: 0.3em 0;
+}
