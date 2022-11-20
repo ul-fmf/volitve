@@ -84,7 +84,8 @@ a strong {
 }
 
 a:hover {
-    color:#df3127
+    color:#df3127;
+    text-decoration: underline;
 }
 
 
