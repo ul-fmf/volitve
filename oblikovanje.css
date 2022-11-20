@@ -74,7 +74,7 @@ a.gumb {
 }
 
 a {
-    color: #df3127;
+    color: #C11309;
     cursor: pointer;
     text-decoration:none
 }
@@ -84,7 +84,8 @@ a strong {
 }
 
 a:hover {
-    color:#df3127
+    color:#df3127;
+    text-decoration: underline;
 }
 
 
@@ -104,3 +105,29 @@ a:hover {
     background-color: #0d6efd;
     border-color: #0d6efd;
 } */
+
+
+dt {
+    font-size: 1.2em;
+    margin: 1.5em 0 0 0;
+}
+dd {
+    margin: 0.3em 0;
+}
+
+.about {
+    background-color: #eee;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.aktualno {
+    border-left: 1.5em solid #df3127;
+    padding-left: 2em;
+    margin-bottom: 4em;
+}
+
+.arhiv {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 0.5em;
+}
