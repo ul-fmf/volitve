@@ -1,0 +1,150 @@
+* {
+    -webkit-print-color-adjust: exact;
+  }
+body {
+    margin-left: 2em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    max-width: 60em;
+    color: #333333;
+    font-size: 1.3em;
+    font-family: "EB Garamond", "Times New Roman", Times, serif;
+}
+
+.toc {
+    font-size: 90%;
+}
+
+li {
+    list-style: square;
+}
+li li {
+    list-style-type: "▫";
+    padding-left: 0.4em;
+}   
+/* div.toc li li:last-child {
+    padding-bottom: 0.5em;
+} */
+
+h2 {
+    margin-top: 1.5em;
+}
+h3 {
+    margin-top: 1.5em;
+}
+h4 {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-style: italic;
+}
+ul {
+    margin: 0.3em 0;
+}
+table {
+    page-break-inside: avoid;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 90%;
+}
+thead {
+    background: #f5bfbc;
+    color: #000;
+    border-bottom: solid 1px;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+thead th {
+    padding: 5pt 10pt 5pt 10pt;
+}
+td {
+    padding: 2pt 10pt 2pt 10pt;
+    margin: 0pt;
+    border: none;
+}
+.porocilo-header tr:nth-child(even) {
+    background-color: #fff;
+}
+.porocilo-header td {
+    padding: 0 1em 0 0;
+}
+.porocilo-header tr td:nth-child(even) {
+    font-weight: bold;
+}
+.porocilo-header .sledljivi-izracun {
+    padding: 0.3em 1em 0.3em 0;
+}
+
+
+a {
+    color: #C11309;
+    cursor: pointer;
+    text-decoration:none
+}
+
+a strong {
+    color:currentColor
+}
+
+a:hover {
+    color:#df3127;
+    text-decoration: underline;
+}
+
+.breadcrumbs {
+    font-size: 0.8em;
+}
+
+
+div.izvoljeniPoslanci table {
+    width: 100%;
+}
+div.izvoljeniPoslanci, td {
+    vertical-align: text-top;
+}
+div.izvoljeniPoslanci td:nth-child(1) {
+    width: 30%;
+}
+div.izvoljeniPoslanci td:nth-child(2) {
+    width: 15%;
+}
+div.izvoljeniPoslanci td:nth-child(3) {
+    width: 35%;
+}
+div.izvoljeniPoslanci td:nth-child(4) {
+    width: 20%;
+}
+div.dHondtoviKolicniki table {
+    width: 100%;
+}
+div.dHondtoviKolicniki td:nth-child(1) {
+    width: 5%;
+}
+div.dHondtoviKolicniki td:nth-child(2) {
+    width: 15%;
+}
+div.dHondtoviKolicniki td:nth-child(3) {
+    width: 15%;
+}
+div.dHondtoviKolicniki td:nth-child(4) {
+    width: 30%;
+}
+div.dHondtoviKolicniki td:nth-child(5) {
+    width: 30%;
+}
+div.dHondtoviKolicniki td:nth-child(6) {
+    width: 10%;
+}
+div.dHondtoviMandati table {
+    width: 50%;
+}
+div.dHondtoviMandati, td {
+    vertical-align: text-top;
+}
+div.dHondtoviMandati td:nth-child(1) {
+    width: 35%;
+}
+div.dHondtoviMandati td:nth-child(2) {
+    width: 65%;
+}
