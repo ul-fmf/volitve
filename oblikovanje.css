@@ -113,3 +113,20 @@ dt {
 dd {
     margin: 0.3em 0;
 }
+
+.about {
+    background-color: #eee;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.aktualno {
+    border-left: 1.5em solid #df3127;
+    padding-left: 2em;
+    margin-bottom: 4em;
+}
+
+.arhiv {
+    border-top: 2px solid #eee;
+    padding-top: 0.5em;
+}
