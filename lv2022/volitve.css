@@ -22,10 +22,11 @@ body {
     background-color: #df30271b;
 }
 
-li {
+ul > li {
     list-style: square;
 }
-li li {
+
+ul > li > li {
     list-style-type: "▫";
     padding-left: 0.4em;
 }   
