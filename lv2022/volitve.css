@@ -83,6 +83,21 @@ td {
     padding: 0.3em 1em 0.3em 0;
 }
 
+table.legenda {
+    margin-bottom: 2em;
+}
+
+.legenda tr:nth-child(even) {
+    background-color: #fff;
+}
+.legenda td {
+    padding: 0 1em 0 0;
+}
+.legenda .sledljivi-izracun {
+    padding: 0.3em 1em 0.3em 0;
+}
+
+
 
 a {
     color: #C11309;
